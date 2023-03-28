@@ -91,12 +91,12 @@ bool Test1() {
     string expectation = "342*15-23^^/+";
     if (t2 == expectation)
     {
-        cout << "===Test1: True===" << endl;
+        cout << "===Test1.1: True===" << endl;
         return true;
     }
     else
     {
-        cout << "===Test1: False===" << endl;
+        cout << "===Test1.1: False===" << endl;
         return false;
     }
 }
@@ -105,12 +105,12 @@ bool Test2() {
     string expectation = "12+34-*";
     if (infixToRPN(t1) == expectation)
     {
-        cout << "===Test2: True===" << endl;
+        cout << "===Test2.1: True===" << endl;
         return true;
     }
     else
     {
-        cout << "===Test2: False===" << endl;
+        cout << "===Test2.1: False===" << endl;
         return false;
     }
 }
@@ -119,14 +119,15 @@ bool Test3() {
     string expectation = "5342*+2/-";
     if (infixToRPN(t1) == expectation)
     {
-        cout << "===Test3: True===" << endl;
+        cout << "===Test3.1: True===" << endl;
         return true;
     }
     else
     {
-        cout << "===Test3: False===" << endl;
+        cout << "===Test3.1: False===" << endl;
         return false;
     }
+
 }
 
 int main() {
